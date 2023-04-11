@@ -21,7 +21,7 @@ namespace meganz.Controller
         public void Connection()
         {
             client = new MegaApiClient();
-            client.Login("meganz13@proton.me", "M@rino13");
+            client.Login("***", "***");
             if (client.IsLoggedIn)
             {
                 f.lblStatus.Text = "CONNECTED";
